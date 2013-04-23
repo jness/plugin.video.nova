@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nova"
+       name="NOVA"
+       version="0.1"
+       provider-name="flip387">
+  <requires>
+	<import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NOVA explores innovations and discoveries from the world of science and technology.</summary>
+    <description>As entertaining as it is informative, NOVA explores innovations and discoveries from the world of science and technology while highlighting the human side of science.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
